@@ -12,6 +12,7 @@ import { CoursesDetailsComponent } from './courses-details/courses-details.compo
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     CoursesDetailsComponent,
     ContactComponent,
     NavbarComponent,
+    FooterComponent,
 
 
   ],
