@@ -6,6 +6,7 @@ import { BlogComponent } from './blog/blog.component';
 import { CoursesComponent } from './courses/courses.component';
 import { AboutComponent } from './about/about.component';
 import { CoursesDetailsComponent } from './courses-details/courses-details.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
   { path:'', redirectTo:"index",pathMatch:"full"},
@@ -20,7 +21,7 @@ const routes: Routes = [
   {path:'about',component:AboutComponent},
 
 
-  //{ path: '**', component: PageNotFoundComponent },
+  { path: '**', component: NotFoundComponent },
 
 ];
 
