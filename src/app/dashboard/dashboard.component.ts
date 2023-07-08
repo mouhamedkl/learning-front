@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { AdminService } from '../services/admin.service';
 
 @Component({
-  selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  selector: 'app-dashboard',
+  templateUrl: './dashboard.component.html',
+  styleUrls: ['./dashboard.component.css']
 })
-export class NavbarComponent implements OnInit {
+export class DashboardComponent implements OnInit {
 
   constructor(public AdminService:AdminService) { }
 
