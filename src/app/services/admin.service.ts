@@ -6,5 +6,5 @@ import { Injectable } from '@angular/core';
 export class AdminService {
 
   constructor() { }
-  isAdmin=false
+  isAdmin=true
 }
